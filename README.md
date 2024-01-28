@@ -1,4 +1,5 @@
 # whisper_fine-tuning_ko-child
+![아이북 포스터 최종본](https://github.com/HaseongJung/whisper_fine-tuning_ko-child/assets/107913513/a0546cab-bc48-46cb-8233-5ee6e0f5570b)
 
 <p align="justify">
 아동들의 발음이 불완전할 수 있는 점을 고려하여, 소아와 유아의 음성에 특화된 모델을 개발하기 위해 Huggingface Hub에 공개된 OpenAI의 Whisper large-v2 모델을 미세조정(fine tuning)하였다.<br>
