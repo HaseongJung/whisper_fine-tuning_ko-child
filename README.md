@@ -1,4 +1,4 @@
-# 생성형AI기반의 동화책 제작 서비스를 위한 Whisper LoRA fine-tunning for Ko-child
+# Whisper LoRA fine-tunning for Ko-child
 ![아이북 포스터 최종본](https://github.com/HaseongJung/whisper_fine-tuning_ko-child/assets/107913513/a0546cab-bc48-46cb-8233-5ee6e0f5570b)
 
 <p align="justify">
@@ -9,7 +9,7 @@
 <br>
 모델의 성능은 각 테스트 데이터셋에 대한 CER(Character Error Rate) 값을 평가지표로 설정해 측정하였으며 표1에서와 같이 소아/유아 데이터와 일반 남녀 데이터에서 모두 성능이 향상되었음을 확인할 수 있다.<br>
 <br>
-최종적으로 서비스에 사용된 음성 인식 모델 파일과 관련 정보는 Huggingface Hub에서 확인할 수 있다.
+최종적으로 서비스에 사용된 음성 인식 모델 파일과 관련 정보는 Huggingface Hub에서 확인할 수 있다. <a href="https://huggingface.co/haseong8012"/>
 </p>
 
 <br>
