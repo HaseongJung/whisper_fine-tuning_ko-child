@@ -12,7 +12,6 @@
 최종적으로 서비스에 사용된 음성 인식 모델 파일과 관련 정보는 <a href="https://huggingface.co/haseong8012">Huggingface Hub</a>에서 확인할 수 있다.
 </p>
 
-<br>
 #### 표 Whisper 모델 fine-tune 전후 성능 비교
 | Model                      |	소아/유아(CER)	| 일반남여(CER) |
 | :-----:                    | :-----:          |  :------:     |
