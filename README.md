@@ -1,4 +1,4 @@
-# whisper_fine-tuning_ko-child
+# 생성형AI기반의 동화책 제작 서비스를 위한 Whisper LoRA fine-tunning for Ko-child
 ![아이북 포스터 최종본](https://github.com/HaseongJung/whisper_fine-tuning_ko-child/assets/107913513/a0546cab-bc48-46cb-8233-5ee6e0f5570b)
 
 <p align="justify">
