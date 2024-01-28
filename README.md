@@ -1,5 +1,5 @@
 # Whisper LoRA fine-tunning for Ko-child
-![아이북 포스터 최종본](https://github.com/HaseongJung/whisper_fine-tuning_ko-child/assets/107913513/a0546cab-bc48-46cb-8233-5ee6e0f5570b)
+#### 생성형AI기반의 동화책 서비스인 '아이북'을 개발하기 위해 음성인식 fine-tunning을 진행하였다.
 
 <p align="justify">
 아동들의 발음이 불완전할 수 있는 점을 고려하여, 소아와 유아의 음성에 특화된 모델을 개발하기 위해 Huggingface Hub에 공개된 OpenAI의 Whisper large-v2 모델을 미세조정(fine tuning)하였다.<br>
@@ -12,7 +12,7 @@
 최종적으로 서비스에 사용된 음성 인식 모델 파일과 관련 정보는 <a href="https://huggingface.co/haseong8012">Huggingface Hub</a>에서 확인할 수 있다.
 </p>
 
-#### 표 Whisper 모델 fine-tune 전후 성능 비교
+### 표 Whisper 모델 fine-tune 전후 성능 비교
 | Model                      |	소아/유아(CER)	| 일반남여(CER) |
 | :-----:                    | :-----:          |  :------:     |
 | Whisper large-v2(original) |	   11.9	      |     12.8     |
