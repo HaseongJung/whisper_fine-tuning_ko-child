@@ -1,5 +1,5 @@
 # Whisper LoRA fine-tunning for Ko-child
-#### 생성형AI기반의 동화책 서비스인 '아이북'을 개발하기 위해 음성인식 fine-tunning을 진행하였다.
+### 생성형AI기반의 동화책 서비스인 '아이북'을 개발하기 위해 음성인식 fine-tunning을 진행하였다.
 
 <p align="justify">
 아동들의 발음이 불완전할 수 있는 점을 고려하여, 소아와 유아의 음성에 특화된 모델을 개발하기 위해 Huggingface Hub에 공개된 OpenAI의 Whisper large-v2 모델을 미세조정(fine tuning)하였다.<br>
