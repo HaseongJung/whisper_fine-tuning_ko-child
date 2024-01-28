@@ -6,7 +6,6 @@
 | Model                      |	소아/유아(CER)	| 일반남여(CER) |
 | :-----:  | :-----: |  :------:     |
 | Whisper large-v2(original) |	   11.9	      |     12.8     |
-| :-----:  | :-----: |  :------:     |
 | Whisper large-v2(ours)	   |     1.08	      |     10.6     |
 
 #### 표 1. Whisper 모델 fine-tune 전후 성능 비교
