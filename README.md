@@ -14,6 +14,7 @@
 최종 모델: haseong8012/whisper-large-v2_child10K_LoRA <br>
 Training procedure <br>
 The following bitsandbytes quantization config was used during training: <br>
+  
 - quant_method: bitsandbytes
 - load_in_8bit: True
 - load_in_4bit: False
@@ -24,6 +25,7 @@ The following bitsandbytes quantization config was used during training: <br>
 - bnb_4bit_quant_type: fp4
 - bnb_4bit_use_double_quant: False
 - bnb_4bit_compute_dtype: float32
+  
 <br>
 Framework versions
 - PEFT 0.5.0
