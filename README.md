@@ -11,8 +11,8 @@
 <br>
 최종적으로 서비스에 사용된 음성 인식 모델 파일과 관련 정보는 <a href="https://huggingface.co/haseong8012">Huggingface Hub</a>에서 확인할 수 있다.<br>
 <br>
-최종 모델: haseong8012/whisper-large-v2_child10K_LoRA <br>
-Training procedure <br>
+### 최종 모델: haseong8012/whisper-large-v2_child10K_LoRA <br>
+#### Training procedure <br>
 The following bitsandbytes quantization config was used during training: <br>
   
 - quant_method: bitsandbytes
