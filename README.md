@@ -10,6 +10,25 @@
 모델의 성능은 각 테스트 데이터셋에 대한 CER(Character Error Rate) 값을 평가지표로 설정해 측정하였으며 표1에서와 같이 소아/유아 데이터와 일반 남녀 데이터에서 모두 성능이 향상되었음을 확인할 수 있다.<br>
 <br>
 최종적으로 서비스에 사용된 음성 인식 모델 파일과 관련 정보는 <a href="https://huggingface.co/haseong8012">Huggingface Hub</a>에서 확인할 수 있다.
+최종 모델: haseong8012/whisper-large-v2_child10K_LoRA
+Training procedure
+The following bitsandbytes quantization config was used during training:
+- quant_method: bitsandbytes
+- load_in_8bit: True
+- load_in_4bit: False
+- llm_int8_threshold: 6.0
+- llm_int8_skip_modules: None
+- llm_int8_enable_fp32_cpu_offload: False
+- llm_int8_has_fp16_weight: False
+- bnb_4bit_quant_type: fp4
+- bnb_4bit_use_double_quant: False
+- bnb_4bit_compute_dtype: float32
+Framework versions
+- PEFT 0.5.0
+
+학습 데이터셋: <a href="https://huggingface.co/haseong8012/child-10k">haseong8012/child-10k (유아음성 10000문장)</a>
+평가 데이터셋: <a href="https://huggingface.co/haseong8012/general10k_for-test">haseong8012/general10k_for-test(일반음성 10000문장)</a>, <a href="https://huggingface.co/haseong8012/child-10k_for-test">haseong8012/child-10k_for-test(유아음성 10000문장)</a>
+
 </p>
 
 ### 표 Whisper 모델 fine-tune 전후 성능 비교
