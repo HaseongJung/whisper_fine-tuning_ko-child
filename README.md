@@ -30,7 +30,7 @@ The following bitsandbytes quantization config was used during training: <br>
 - PEFT 0.5.0
 
 학습 데이터셋: <a href="https://huggingface.co/haseong8012/child-10k">haseong8012/child-10k (유아음성 10000문장)</a><br>
-평가 데이터셋: <a href="https://huggingface.co/haseong8012/general10k_for-test">haseong8012/general10k_for-test(일반음성 10000문장)</a>, <a href="https://huggingface.co/haseong8012/child-10k_for-test">haseong8012/child-10k_for-test(유아음성 10000문장)</a>
+평가 데이터셋: <a href="https://huggingface.co/datasets/haseong8012/general10k_for-test">haseong8012/general10k_for-test(일반음성 10000문장)</a>, <a href="https://huggingface.co/datasets/haseong8012/child-10k_for-test">haseong8012/child-10k_for-test(유아음성 10000문장)</a>
 
 
 
